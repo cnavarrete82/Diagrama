@@ -1,0 +1,12 @@
+graph TD
+A[Inversión Inicial: -€150.000] --> B{Gastos: -€36.200}
+B --> C{Gastos: -€36.200}
+C --> D{Gastos: -€36.200}
+D --> E{Gastos: -€36.200, Ingresos Netos: €40.408}
+E --> F{Gastos: -€36.200, Ingresos Netos: €40.408}
+F --> G{Gastos: -€36.200, Ingresos Netos: €40.408}
+...
+G --> H{Gastos: -€36.200, Ingresos Netos: €40.408}
+H --> I[VAN: €12.929, TIR: 26.2%]
+
+  
